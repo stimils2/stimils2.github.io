@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+// import  { useState } from "react";
 
 const Footer = () => {
-  const [bgStyle] = useState({ backgroundColor: "#f5f5f5" });
+  // const [bgStyle] = useState({ backgroundColor: "#f5f5f5" });
 
   return null
 };
