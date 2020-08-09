@@ -12,7 +12,7 @@ import {
     <div id="contact">
     <div className="container container-fluid">
           <div className="d-inline align-self-center">
-          <h2 className="display-5 text-center">Get In Touch</h2>
+          <h1 className="display-4 text-center">Get In Touch</h1>
           <p className="lead text-center" style={{fontSize:'22px'}}>I'm open to Opportunities. I can be reached at
     
             <a href="mailto:sandeeptimilsina@gmail.com">{" "}
