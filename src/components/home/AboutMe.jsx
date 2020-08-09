@@ -3,7 +3,6 @@ import axios from "axios";
 import Pdf from "../../editable-stuff/resume.pdf";
 import {
   aboutHeading,
-  aboutDescription,
   showInstaProfilePic,
   instaLink,
   instaUsername,
@@ -56,7 +55,7 @@ const AboutMe = () => {
           )}
           <div className={`col-lg-${showInsta ? "7" : "12"}`}>
             <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
-            <p className="lead text-center">{aboutDescription}</p>
+            <p className="lead text-center">{'I am practictioner of First Principles thinking. "With out data you are just another person with an opinion.(W.Edwards Deming)". I love analyzing data, digging into the unknown and finding insights.'}</p>
             {resumeURL && (
               <p className="lead text-center">
                 <a
